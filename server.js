@@ -9,7 +9,7 @@ for (let i = 0; i < cities.length; i++) {
 
     city;
 
-    app.get('/', (req, res) => {
+    app.get('/kfc', (req, res) => {
         res.json(mombasa.product.concat(nrk.product))
     })
 
